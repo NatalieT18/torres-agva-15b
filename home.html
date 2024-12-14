@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Main Page</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <nav>
+    <a href="index.html">Home</a>
+      <a href="pages/page1.html">Products and Services</a>
+      <a href="pages/page2.html">Contact Us</a>
+   
+    </nav>
+  
+    
+    <div class="column-layout">
+    <div class="main-column">
+        <h2>Tiramisu Delights</h2>
+        <p>
+           Tiramisu Delights is a small business ran by a High School Student. It is specialized in making Triamisu without any raw ingredients (eggs). This tiramisu is not only fresh and homemade, but affordable! There are many sizes to purchase from whether that be a small piece for one person, or a bigger serving size for a lot of people. There is also options to customize the tiramisu to your liking, whether that be writing something on the top, or adding things to it like rasberries or strawberries. To order, contact us!
+        </p>
+
+      </div>
+
+      <div class="sidebar-one">
+     
+        <img src="https://cdn.glitch.global/2220de9c-7906-40e6-91a6-57432f203cd2/tiramisu%20(1).png?v=1733175310192"> 
+        <p>
+          <ul>
+    <li>Healthy</li>
+    <li>Homemade</li>
+     <li>Fresh</li>
+        </ul>  
+        </p>
+      </div>
+    
+    
+    <div id="specialoffers" class="call-outs-container">
+      <div class="call-out">
+        <h4>Special Offer 1</h4>
+        <p>
+          Buy 1 get 1 free!
+        </p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="call-out">
+        <h4>Special Offer 2</h4>
+        <p>
+         50% off your second order!
+        </p>
+        <button>Learn More</button>
+      </div>
+    </div>
+
+    <div style="text-align:center;">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+    </div>
+
+    <script>
+      function hideAds() {
+        var x = document.getElementById("specialoffers");
+        var y = document.getElementById("hidebutton");
+        x.style.display = "none";
+        y.style.display = "none";
+      }
+    </script>
+
+  
+  </body>
+</html>
